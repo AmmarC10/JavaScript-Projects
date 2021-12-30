@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.inputfield {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.choice {
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.choice:hover {
+  color: white;
+  background: black;
+}
+form input,
+form button {
+  margin-top: 20px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+form button {
+  background: none;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 8rem;
+  border-radius: 15px;
+}
+
+form p {
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.btn {
+  background: none;
+  padding: 2rem;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+  transition: all 0.3s ease;
+}
