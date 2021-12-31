@@ -18,8 +18,6 @@ function createUserCard(user) {
                     <li>Following: ${user.following}</li>
                     <li>Repos: ${user.public_repos}</li>
                 </ul>
-                <div class = "repos">
-                </div>
             </div>
         </div>
     `;
