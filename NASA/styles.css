@@ -1,0 +1,82 @@
+* {
+  margin: 0 auto;
+  align-items: center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 2%;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(82, 82, 219, 0.5);
+  padding: 30px;
+}
+
+li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(179, 171, 171, 0.363);
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  border-radius: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 30px;
+  display: flex;
+  margin-top: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: red;
+}
+
+.btn:hover {
+  transition: all 0.4s ease-in-out;
+  font-size: 35px;
+  color: red;
+}
+
+.liked {
+  font-size: 30px;
+  display: flex;
+  margin-top: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: grey;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.bio {
+  font-size: 20px;
+  margin-top: 15px;
+}
